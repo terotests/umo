@@ -20,8 +20,7 @@
       _myTrait_.__factoryClass.push(function (objectName) {
 
         if (!_umoCache) _umoCache = {};
-
-        if (objectName) return;
+        if (!objectName) return;
 
         if (_umoCache[objectName]) return _umoCache[objectName];
 
